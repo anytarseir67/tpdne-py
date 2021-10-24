@@ -17,7 +17,7 @@ class AioPerson(async_init):
 
     async def __init__(self, *, fetch: bool=True) -> object:
         if fetch:
-            self.bytes = await self.fetch()
+            await self.fetch()
 
     async def fetch(self) -> bytes:
         if not hasattr(self, 'bytes'):
@@ -31,7 +31,7 @@ class Person():
 
     def __init__(self, fetch: bool=True) -> object:
         if fetch:
-            self.bytes = self.fetch()
+            self.fetch()
 
     def fetch(self) -> bytes:
         if not hasattr(self, 'bytes'):
