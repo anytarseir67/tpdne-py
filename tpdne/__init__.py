@@ -29,7 +29,7 @@ class AioPerson(async_init):
 class Person():
     __slots__ = ('bytes')
 
-    def __init__(self, fetch: bool=True) -> object:
+    def __init__(self, *, fetch: bool=True) -> object:
         if fetch:
             self.fetch()
 
