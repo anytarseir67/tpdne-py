@@ -1,5 +1,5 @@
 # tpdne-py
-### a very simple wrapper around requests/aiohttp for thispersondoesnotexist.com
+### a very simple wrapper around requests/aiohttp for thispersondoesnotexist.com (and similar)
 #### provides 4 objects, Person, Aioperson, Horse, and AioHorse usage:
 ```
 from tpdne import Person
