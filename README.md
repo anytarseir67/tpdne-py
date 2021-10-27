@@ -1,6 +1,6 @@
 # tpdne-py
 ### a very simple wrapper around requests/aiohttp for thispersondoesnotexist.com
-#### provides 2 objects, Person and Aioperson. usage:
+#### provides 4 objects, Person, Aioperson, Horse, and AioHorse usage:
 ```
 from tpdne import Person
 
@@ -25,7 +25,7 @@ async def main() -> None:
 if __name__ == "__main__":
     asyncio.run(main())
 ```
-#### optionally `fetch=False` can be passed to either constructor so that the image can be fetched at a later time with `Person.fetch()` or `await AioPerson.fetch()`
+#### optionally `fetch=False` can be passed to the constructors so that the image can be fetched at a later time with `Person.fetch()` or `await AioPerson.fetch()`
 
 ```
 from tpdne import Person
