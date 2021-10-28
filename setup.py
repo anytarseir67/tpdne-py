@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
   requirements = f.read().splitlines()
 
 setup(name='tpdne-py',
-    version='0.0.3',
+    version='0.0.4',
     description='a very simple wrapper around requests/aiohttp for thispersondoesnotexist.com',
     long_description=README,
     long_description_content_type="text/markdown",
