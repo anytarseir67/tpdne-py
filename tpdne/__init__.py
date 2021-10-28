@@ -69,11 +69,3 @@ class Horse():
         else:
             print('already fetched but ok')
         return self.bytes
-        
-async def main():
-    x = await AioHorse()
-    with open('test.png', 'wb') as f:
-        f.write(x.bytes)
-
-import asyncio
-asyncio.run(main())
