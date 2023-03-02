@@ -1,4 +1,5 @@
 # tpdne-py
+## NOTE: api no longer exists, just redirects to stability.ai  :/
 ### a very simple wrapper around requests/aiohttp for thispersondoesnotexist.com (and similar)
 #### provides 4 objects, Person, Aioperson, Horse, and AioHorse usage:
 ```
